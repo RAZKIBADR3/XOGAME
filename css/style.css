@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video {
+    position: absolute;
+    height: 130vh;
+    width: auto;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    position: absolute;
+    z-index: 10;
+    margin: 120px 0px 0px 120px;
+    color: white;
+    font-family:'Gill Sans MT';
+    font-size: 110px;
+    letter-spacing: 20px;
+    border-left: 15px solid yellow;
+    padding-left: 35px;
+}
+
+.v {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dark {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    opacity: 0.6;
+}
+
+.pause {
+    z-index: 2;
+    position: absolute;
+    width: 80px;
+    margin:61vh 0 0 9%;
+    cursor: pointer;
+}
+
+.volume {
+    z-index: 2;
+    position: absolute;
+    width: 80px;
+    margin:61vh 0 0 46%;
+    cursor: pointer;
+}
+
+.container > a {
+    z-index: 2;
+    position: absolute;
+    margin:61vh 0 0 73%;
+    font-family: cursive;
+    background-color: transparent;
+    color: yellow;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    transition: 0.5s color, 0.5s background-color;
+    border: 3px solid yellow;
+    border-radius: 50px;
+}
+
+.container > a:hover {
+    background-color: yellow;
+    color: black;
+}
